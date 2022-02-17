@@ -13,7 +13,7 @@
 class ViewHelper : public QObject
 {
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "harbour.tintoverlay")
+    Q_CLASSINFO("D-Bus Interface", "harbour.nightish")
 
 public:
     explicit ViewHelper(QObject *parent = 0);

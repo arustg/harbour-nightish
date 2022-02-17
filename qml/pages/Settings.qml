@@ -2,9 +2,9 @@ import QtQuick 2.6
 import Sailfish.Silica 1.0
 import Nemo.Configuration 1.0
 
+
 Page {
     id: page
-    objectName: "mainPage"
 
     SilicaFlickable {
         id: flick
@@ -15,12 +15,9 @@ Page {
             MenuItem {
                 text: overlayRunning ? "Stop" : "Start"
                 onClicked: {
-                    switchOverlay();
-                }
+                    switchOverlay()}
             }
-
-
-        }
+       }
 
         Column {
             id: content
@@ -90,7 +87,7 @@ Page {
 
     ConfigurationGroup {
         id: configuration
-        path: "/apps/harbour-tint-overlay"
+        path: "/apps/harbour-nightish"
         property string color: "#05001000"
     }
 

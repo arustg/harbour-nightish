@@ -46,7 +46,7 @@ ConfigView::ConfigView(QQuickView *parent) :
     QObject(parent)
 {
     parent->installEventFilter(this);
-    dconf = new MGConfItem("/apps/harbour-tint-overlay/color");
+    dconf = new MGConfItem("/apps/harbour-nightish/color");
     QObject::connect(dconf, SIGNAL(valueChanged()), this, SLOT(updateColor()));
     updateColor();
 }

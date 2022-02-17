@@ -23,6 +23,7 @@ HEADERS += \
 
 DISTFILES += \
     icons/256x256/harbour-nightish.png \
+    images/harbour-nightish.png \
     qml/main.qml \
     rpm/harbour-nightish.yaml
 

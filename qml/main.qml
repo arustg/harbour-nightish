@@ -1,14 +1,13 @@
 import QtQuick 2.6
 import Sailfish.Silica 1.0
+import Nemo.Configuration 1.0
 import "pages"
 
 ApplicationWindow {
-    cover: Qt.resolvedUrl("cover/CoverPage.qml")
-    allowedOrientations: defaultAllowedOrientations
-
     id: appWindow
 
-    initialPage: Component { Settings { } }
+    initialPage: Component { Settings {} }
+    cover: Qt.resolvedUrl("cover/CoverPage.qml")
 
     property bool overlayRunning: false
 
@@ -40,4 +39,5 @@ ApplicationWindow {
     }
 
     onApplicationActiveChanged: helper.checkOverlay()
+
 }

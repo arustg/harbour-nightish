@@ -10,7 +10,7 @@ Name:       harbour-nightish
 
 Summary:    Eyes-saving app
 Version:    0.1
-Release:    2
+Release:    3
 Group:      Qt/Qt
 License:    LICENSE
 URL:        https://openrepos.net/
