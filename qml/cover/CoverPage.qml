@@ -6,16 +6,24 @@ CoverBackground {
     Image {
         id: icon
         anchors.fill: parent
-        fillMode: Image.PreserveAspectFit
-        opacity: 0.50
+        fillMode: Image.PreserveAspectCrop
+        opacity: 0.40
         source: "/usr/share/icons/hicolor/172x172/apps/harbour-nightish.png"}
 
     CoverActionList {
         id: coverAction
 
         CoverAction {
-            iconSource: "/usr/share/icons/hicolor/86x86/apps/harbour-nightish.png"
-            onTriggered: switchOverlay()
+            property bool next: true
+            iconSource: next ? "image://theme/icon-cover-next" : "image://theme/icon-cover-pause"
+            onTriggered: {
+                if (next) {
+                    switchOverlay()
+                } else {
+                    switchOverlay()
+                }
+                next = !next
+            }
         }
     }
 }
