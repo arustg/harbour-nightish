@@ -10,10 +10,10 @@ Name:       harbour-nightish
 
 Summary:    Eyes-saving app
 Version:    0.1
-Release:    3
+Release:    4
 Group:      Qt/Qt
-License:    LICENSE
-URL:        https://openrepos.net/
+License:    GPLv3
+URL:        https://github.com/arustg/harbour-nightish
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  harbour-nightish.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9

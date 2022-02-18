@@ -22,16 +22,22 @@ HEADERS += \
     src/viewhelper.h
 
 DISTFILES += \
-    icons/256x256/harbour-nightish.png \
-    images/harbour-nightish.png \
-    qml/main.qml \
-    rpm/harbour-nightish.yaml
-
-DISTFILES += \
     qml/main.qml \
     qml/overlay.qml \
     qml/pages/Settings.qml \
     rpm/harbour-nightish.spec \
-    harbour-nightish.desktop
+    rpm/harbour-nightish.yaml \
+    translations/harbour-nightish-ru.ts \
+    translations/harbour-nightish-de.ts \
+    harbour-nightish.desktop \
+    translations/harbour-nightish.ts
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172
+SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
+
+
+CONFIG += sailfishapp_i18n
+
+TRANSLATIONS += \
+    translations/harbour-nightish-de.ts \
+    translations/harbour-nightish-ru.ts
+

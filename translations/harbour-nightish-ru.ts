@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de">
+<TS version="2.1" language="ru">
 <context>
     <name>Settings</name>
     <message>
         <source>Stop</source>
-        <translation>Hör auf</translation>
+        <translation>Стоп</translation>
     </message>
     <message>
         <source>Start</source>
-        <translation>Start</translation>
+        <translation>Старт</translation>
     </message>
     <message>
         <source>Red</source>
-        <translation>Rot</translation>
+        <translation>Красный</translation>
     </message>
     <message>
         <source>Green</source>
-        <translation>Grün</translation>
+        <translation>Зелёный</translation>
     </message>
     <message>
         <source>Blue</source>
-        <translation>Blau</translation>
+        <translation>Синий</translation>
     </message>
     <message>
         <source>Alpha</source>
-        <translation>Alpha</translation>
+        <translation>Альфа</translation>
     </message>
 </context>
 </TS>

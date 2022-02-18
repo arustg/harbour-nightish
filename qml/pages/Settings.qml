@@ -13,7 +13,7 @@ Page {
 
         PullDownMenu {
             MenuItem {
-                text: overlayRunning ? "Stop" : "Start"
+                text: overlayRunning ? qsTr("Stop") : qsTr("Start")
                 onClicked: {
                     switchOverlay()}
             }
@@ -30,7 +30,7 @@ Page {
             Slider {
                 id: redSlider
                 width: parent.width
-                label: "Red"
+                label: qsTr("Red")
                 minimumValue: 0
                 maximumValue: 255
                 stepSize: 1
@@ -42,7 +42,7 @@ Page {
             Slider {
                 id: greenSlider
                 width: parent.width
-                label: "Green"
+                label: qsTr("Green")
                 minimumValue: 0
                 maximumValue: 255
                 stepSize: 1
@@ -54,7 +54,7 @@ Page {
             Slider {
                 id: blueSlider
                 width: parent.width
-                label: "Blue"
+                label: qsTr("Blue")
                 minimumValue: 0
                 maximumValue: 255
                 stepSize: 1
@@ -66,7 +66,7 @@ Page {
             Slider {
                 id: alphaSlider
                 width: parent.width
-                label: "Alpha"
+                label: qsTr("Alpha")
                 minimumValue: 1
                 maximumValue: 128
                 stepSize: 1
