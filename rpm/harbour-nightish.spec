@@ -10,7 +10,7 @@ Name:       harbour-nightish
 
 Summary:    Eyes-saving app
 Version:    0.1
-Release:    4
+Release:    5
 Group:      Qt/Qt
 License:    GPLv3
 URL:        https://github.com/arustg/harbour-nightish
