@@ -7,7 +7,7 @@ CoverBackground {
         id: icon
         anchors.fill: parent
         fillMode: Image.PreserveAspectCrop
-        opacity: 0.1
+        opacity: 0.4
         source: "/usr/share/harbour-nightish/images/cover.png"}
 
     CoverActionList {
