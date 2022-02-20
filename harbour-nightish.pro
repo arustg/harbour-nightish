@@ -6,7 +6,7 @@ QT += dbus gui-private
 
 PKGCONFIG += \
     mlite5 \
-    wayland-client \
+    wayland-client
 
 DEFINES += APP_VERSION=\\\"$$VERSION\\\"
 
@@ -32,10 +32,9 @@ DISTFILES += \
     translations/*.ts \
     harbour-nightish.desktop
 
-images.files = images
-images.path = /usr/share/$${TARGET}
-
 INSTALLS += images
+    images.files = images
+    images.path = /usr/share/$${TARGET}
 
 SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
 

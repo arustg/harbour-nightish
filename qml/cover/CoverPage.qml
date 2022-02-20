@@ -1,4 +1,4 @@
-import QtQuick 2.0
+import QtQuick 2.6
 import Sailfish.Silica 1.0
 
 CoverBackground {
@@ -7,7 +7,7 @@ CoverBackground {
         id: icon
         anchors.fill: parent
         fillMode: Image.PreserveAspectCrop
-        opacity: 0.4
+        opacity: 0.3
         source: "/usr/share/harbour-nightish/images/cover.png"}
 
     CoverActionList {
