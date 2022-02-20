@@ -8,7 +8,7 @@ Name:       harbour-nightish
 # >> macros
 # << macros
 
-Summary:    Eyes-saving app
+Summary:    An application for preserving vision
 Version:    0.1
 Release:    5
 Group:      Qt/Qt
@@ -25,7 +25,7 @@ BuildRequires:  pkgconfig(wayland-client)
 BuildRequires:  desktop-file-utils
 
 %description
-An application for preserving vision
+- Nightish
 
 
 %prep

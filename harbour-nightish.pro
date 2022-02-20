@@ -44,4 +44,3 @@ TRANSLATIONS += \
     translations/harbour-nightish-de.ts \
     translations/harbour-nightish-pl.ts \
     translations/harbour-nightish-ru.ts
-
