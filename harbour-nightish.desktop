@@ -1,7 +1,11 @@
 [Desktop Entry]
 Type=Application
-X-Nemo-Application-Type=silica-qt5
+Name=Nightish
 Icon=harbour-nightish
 Exec=harbour-nightish
-Name=Nightish
 
+[X-Sailjail]
+Sandboxing=Disabled
+Permissions=Base
+OrganizationName=openrepos.net
+ApplicationName=Nightish
