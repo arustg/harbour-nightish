@@ -9,8 +9,8 @@ Name:       harbour-nightish
 # << macros
 
 Summary:    An application for preserving vision
-Version:    0.1
-Release:    5
+Version:    0.2
+Release:    0
 Group:      Qt/Qt
 License:    GNU GPLv3
 URL:        https://github.com/arustg/harbour-nightish
