@@ -1,6 +1,3 @@
 # Nightish
 An application for preserving vision based on <a href="https://github.com/CODeRUS/harbour-tint-overlay">TintOverlay</a> (Thanks to CODeRUS!)
-
-![photo_2022-02-18_23-20-18](https://user-images.githubusercontent.com/4253881/154792457-47d78c58-a184-4e61-b294-04cb7a463f75.jpg)
-![photo_2022-02-18_23-20-11](https://user-images.githubusercontent.com/4253881/154792459-cd313312-5aae-4ec2-9bf0-290d389cc360.jpg)
-
+![photo_2022-03-21_11-15-16](https://user-images.githubusercontent.com/4253881/159545565-9ba124e7-82b6-4c85-ae25-b0cec3992629.jpg)
